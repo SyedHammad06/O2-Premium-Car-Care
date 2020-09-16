@@ -1,0 +1,173 @@
+@media (max-width: 1024px) {
+  html{
+    font-size: 50%;
+  }
+  .part-2__boxes{
+    width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .logo-box{
+    font-size: 1.5rem;
+  }
+  .nav{
+    margin-right: 6.5rem;
+  }
+  .nav__item{
+    font-size: 1.2rem;
+  }
+  .home{
+    margin-top: 10.5rem;
+  }
+  .home__title-1,
+  .home__title-2{
+    margin-left: 2rem;
+    font-size: 4rem;
+  }
+  .part-1{
+    padding: 5rem;
+    &__card-1, 
+    &__card-2,
+    &__card-3,
+    &__card-4{
+      width: 48%;
+      margin: 1rem .5rem;
+    }
+  }
+  .address__col-2{
+    width: 40%;
+  }
+  .part-2{
+    padding: 5rem;
+  }
+  .part-2__center{
+    justify-content: center;
+  }
+  .part-2__boxes{
+    width: 40%;
+  }
+  .about{
+    padding: 5rem;
+  }
+  .address{
+    padding: 5rem;
+  }
+  .form{
+    padding: 5rem;
+    &__heading{
+      font-size: 2.5rem;
+    }
+  }
+}
+@media (max-width: 600px){
+  .part-2__boxes{
+    width: 47%;
+  }
+  .part-2__box2{
+    margin-right: 0;
+  }
+  .form{
+    flex-direction: column;
+    &__inp{
+      margin-top: 2rem;
+    }
+  }
+} 
+@media (max-width: 560px){
+  html{
+    font-size: 45%;
+  }
+}
+@media (max-width: 500px){
+  .nav{
+    display: none;
+  }
+  .header{
+    padding: 0;
+    padding-right: 5rem;
+  }
+  .logo-box{
+    margin: 0 auto;
+  }
+  .home{
+    flex-direction: column;
+    &__img-box{
+      width: 100%;
+    }
+    &__heading{
+      width: 100%;
+      text-align: center;
+    }
+    &__title-1,
+    &__title-2{
+      margin: 0;
+    }
+  }
+  .part-1{
+    &__card-1, 
+    &__card-2,
+    &__card-3,
+    &__card-4{
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .part-2__boxes{
+    width: 100%;
+    padding: 0 5rem;
+  }
+  .mt-3{
+    margin-top: 3rem;
+  }
+  .address{
+    flex-direction: column;
+    &__col-2,
+    &__col-3{
+      width: 100%;
+    }
+  }
+  .form__img-box{
+    display: none;
+  }
+  .form__heading{
+    width: 100%;
+  }
+  .form__fields{
+    width: 100%;
+  }
+}
+@media (max-width: 425px){
+  .about{
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .col-1{
+    width: 100%;
+  }
+  .col-2{
+    width: 100%;
+  }
+  .mt-2{
+    margin-top: 3rem;
+  }
+  .part-2__boxes{
+    padding: 0;
+  }
+}
+@media (max-width: 320px){
+  .part-1{
+    padding: 3rem;
+  }
+  .part-2{
+    padding: 3rem;
+  }
+  .about{
+    padding: 3rem;
+  }
+  .address{
+    padding: 3rem;
+  }
+  .form{
+    padding: 3rem;
+  }
+}
